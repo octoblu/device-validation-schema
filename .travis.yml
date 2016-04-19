@@ -13,4 +13,4 @@ deploy:
   on:
     tags: true
     repo: octoblu/device-validation-schema
-  script:
+  scripts:
