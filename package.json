@@ -1,0 +1,19 @@
+{
+  "name": "device-validation-schema",
+  "version": "1.0.4",
+  "description": "Schema to help validate device schemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/device-validation-schema.git"
+  },
+  "author": "Octoblu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/device-validation-schema/issues"
+  },
+  "homepage": "https://github.com/octoblu/device-validation-schema#readme"
+}
