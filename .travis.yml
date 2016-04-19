@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '5'
+deploy:
+  provider: s3
+  access_key_id: AKIAJH2D5IPIRHYJT5IA
+  secret_access_key:
+    secure: wTzm+PvgBBQ9H+Gu+4aIH6RXS68bND0B33Inn+3+7V5btU7peOPaDd/HEff6fybt31lEnCz1LWSum8JM57NqX6up7ceK5tzoAgufu1LIKiB7wEBo9W00jh8VVXvSaE3UVKcQmSViZW6GoKWruGHDuNPxgJDkibgcJMUC1uL8muZKi6CJlsi0FCQLCffZAAErPkpYJi7Fb+L3UbP3uxTh+qODMbqfiOK9OdZhiIcBSNYfWTDGsCBZRoEfiJdqPzHR83KjFYzOICSR07o4S7XDplJcvq3e3qxQyVIpQt9yNiJ//dRCaRmE/2afq/WHq0CsFwVjIB3FD10KkSsrSmb59ryG03VcVuNwd7B/JPT/ZG2SetDOgD74x6Mew5040WDIvvKzi7ip8IXCNWY3WK+Mqu4UDAkHuatUumfCB4UgDGMi6Cwsl1uEdm38VnrslZCQBvqO9We8cIzIZSeLQJPULrFRQY+tbsFO6AlYIAjBmkMqheMm3vu/hs1oB6xgrNX4KCtGUTLVcJbmt6ZnC/W4qZ5hUlUxFfx4V0K00tvfhIZFu16DbwjnyuW2Nry6H1JUCd3iIN+5idnU9/ZNAGTr/eQqGaEHuzIRDBe6pd2cRrx8kHZhceM/ngihahVY54bIySK64lrcKCjEEZyURZQ0ycSdrN27IMs41kj+jhco4lE=
+  region: us-west-2
+  bucket: octoblu-cdn
+  local_dir: schemas
+  upload-dir: device-schemas
+  on:
+    tags: true
+    repo: octoblu/device-validation-schema
