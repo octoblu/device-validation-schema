@@ -1,10 +1,10 @@
 {
   "name": "device-validation-schema",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Schema to help validate device schemas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 1"
   },
   "repository": {
     "type": "git",
